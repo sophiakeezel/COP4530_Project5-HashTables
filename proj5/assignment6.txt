@@ -1,0 +1,4 @@
+
+Time Complexity of rehash(): O(N^2) because the functions contains a nested for loop, which executed n times for both loops. 
+
+Time Complexity of removeUser(const string & k): O(N) because this function calls the remove function in the hashtable class. The remove function in this class contains one for loop which makes it loop n times. 
